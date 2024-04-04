@@ -13,7 +13,8 @@
     <!------------------------------------------- Administración de recursos ------------------------------------------->
     <a-assets>      
 
-      <!-- Agregar código aquí -->
+      <a-asset-item id="airplane-obj" src="./models/tinker.obj"></a-asset-item>
+      <a-asset-item id="airplane-mtl" src="./models/obj.mtl"></a-asset-item>
 
     </a-assets>
     
@@ -21,6 +22,7 @@
     <!-------------------------------------- Modelos OBJ ----------------------------------------------------------->   
   
     <!-- Agregar código aquí -->
+    <a-entity obj-model="obj: #airplane-obj; mtl: #airplane-mtl" position="5 2 0" rotation="-90 -40 0" scale="0.1 0.1 0.1"></a-entity>
 
     
     <!------------------------------------- Plano circular ----------------------------------------------->
